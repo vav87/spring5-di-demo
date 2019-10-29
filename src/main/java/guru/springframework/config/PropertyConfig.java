@@ -19,8 +19,8 @@ import org.springframework.core.env.Environment;
 })*/
 public class PropertyConfig {
 
-    @Autowired
-    Environment env;
+    //@Autowired
+    //Environment env;
 
     @Value("${user.username}")
     String user;
@@ -59,9 +59,11 @@ public class PropertyConfig {
         return fakeJmsBroker;
     }
 
+    /*
     @Bean
     public static PropertySourcesPlaceholderConfigurer properties() {
         PropertySourcesPlaceholderConfigurer propertySourcesPlaceholderConfigurer = new PropertySourcesPlaceholderConfigurer();
         return propertySourcesPlaceholderConfigurer;
     }
+    */
 }
