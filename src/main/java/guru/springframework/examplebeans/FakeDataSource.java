@@ -5,6 +5,10 @@ public class FakeDataSource {
     private String password;
     private String url;
 
+    {
+        System.out.println("FakeDataSource");
+    }
+
     public String getUser() {
         return user;
     }

@@ -6,6 +6,10 @@ public class FakeJmsBroker {
     private String password;
     private String url;
 
+    {
+        System.out.println("FakeJmsBroker");
+    }
+
     public String getUser() {
         return user;
     }

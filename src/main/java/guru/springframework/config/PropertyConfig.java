@@ -22,6 +22,10 @@ public class PropertyConfig {
     //@Autowired
     //Environment env;
 
+    {
+        System.out.println("PropertyConfig");
+    }
+
     @Value("${user.username}")
     String user;
 
